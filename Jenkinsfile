@@ -11,7 +11,7 @@ pipeline{
                    exit 1
                  fi
                 '''
-            }
+               }
         }
         stage("connectivity check to EKS"){
             steps{
